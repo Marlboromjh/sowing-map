@@ -1,0 +1,60 @@
+/*清除页面默认边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*自定义列表*/
+.main {
+    width: 1200px;
+    height: 560px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+.menu-box {
+    text-align: center;
+    background-color: #ffffff;
+}
+.menu-box ul li {
+    list-style: none;
+    display: inline-block;
+    width: 296px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+/*导航栏样式*/
+.showBg {
+    background-color: #ffcc00;
+    border-radius: 8px;
+}
+/*banner图部分*/
+.banner {
+    width:1200px;
+    height:460px;
+    left: 50%;
+    margin-left: -600px;
+    overflow:hidden;
+    position:relative;
+}
+.banner-slide {
+    width:1200px;
+    height:460px;
+    background-repeat:no-repeat;
+    float:left;
+    display:none;
+}
+.slide1 {
+    background-image: url("../img/1.jpg");
+}
+.slide2 {
+    background-image: url("../img/3.jpg");
+}
+.slide3 {
+    background-image: url("../img/4.jpg");
+}
+.slide4 {
+    background-image: url("../img/5.jpg");
+}
+.slide-active{
+    display:block;
+}
